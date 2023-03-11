@@ -9,11 +9,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*
+
 .border {
   border: 1px solid rgb(255, 0, 0);
 }
-*/
+
 /* CSS стили для header */
 
 .header {
@@ -32,7 +32,7 @@
   height: 32px; /* задаем высоту элемента */
 }
 
-.logo__place_header {
+.logo_place_header {
   background-image: url(../images/logo_place_header.svg); /* задаем фоновое изображение для элемента */
   position: absolute; /* включаем абсолютное позиционирование элемента */
   top: 30px; /* задаем вертикальную позицию позиционируемого элемента */
@@ -41,22 +41,25 @@
 }
 
 .header__title{
+  margin: 0;
+  margin-left: 64px;
   width: 730px;
   font-size: 108px; /* задаем размер шрифта элемента */
   font-weight: 600; /* задаем начертание шрифта элемента */
   line-height: 96px; /* задаем высоту строки текста элемента */
-  position: absolute;
-  left: 64px;
   z-index: 2;
 }
 
 .header__link{
   text-decoration: none; /* задаем внешний вид декоративных линий в тексте (убираем подчеркивание) */
+  color: #2f80ed;
 }
 
 .header__subtitle{
+  margin: 0;
   position: absolute;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -87,18 +90,19 @@
 
 .description {
   margin: 100px auto 0 auto;
-  width: 80%;
-}
-
-.two-colums {
-  min-width: 784px; /* задаем минимальную ширину элемента */
   display: flex;
-  justify-content: space-between; /* задаем способ распределения пространства вокруг флекс-элементов вдоль главной оси контейнера */
-  min-height: 200px;
+  justify-content: center; /* задаем способ распределения пространства вокруг флекс-элементов вдоль главной оси контейнера */
 }
 
-.two-colums_brief {
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
   margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   justify-content: start;
   width: 175px;
@@ -108,24 +112,29 @@
   color: #2f80ed;
 }
 
-.two-colums_main-text {
+.two-columns__main-text {
+  min-width: 784px; /* задаем минимальную ширину элемента */
   width: 80%;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.two-colums_paragraph {
+.two-columns__paragraph {
+  margin: 0;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
 }
 
-.two-colums_paragraph_middle {
-  margin: 30px auto;
+.two-columns__paragraph:nth-child(even) {
+  margin: 30px 0;
 }
 
-.two-colums_span-accent {
+.two-columns__span-accent {
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
@@ -162,12 +171,13 @@
 
 .table {
   color: black;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style: none;
+  padding: 0;
 }
 
 .table__cell {
@@ -176,13 +186,16 @@
 }
 
 .table__heading {
+  margin: 0;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
 }
 
 .table__text {
+  margin: 0;
   margin-top: 20px;
+  margin-bottom: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -192,7 +205,7 @@
 
 .feynman {
   margin: 0 auto;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url("../images/feynman.png");
   background-position: left bottom;
@@ -228,6 +241,7 @@
   font-weight: normal;
   line-height: 51px;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 /* CSS стили для секции kaufman */
@@ -256,37 +270,24 @@
 
 .section-title__theme_dark {
   color: white;
-}
-
-.section-title__margin-top_90px {
+  z-index: 2;
   margin-top: 90px;
 }
 
 .section-subtitle__theme_dark {
   color: white;
+  z-index: 2;
 }
 
 .table__theme_dark {
   color: white;
-}
-
-.table__margin-bottom_90px {
+  z-index: 2;
   margin-bottom: 90px;
 }
 
 .table__cell_theme_dark {
   color: white;
-}
-
-.table__margin-top_80px {
   margin-top: 80px;
-}
-
-.table__cell_z-index_2 {
-  z-index: 2;
-}
-
-.table__cell_width_200px {
   width: 200px;
 }
 
@@ -310,16 +311,18 @@
 .footer__columns {
   margin-top: 60px;
   margin-bottom: 40px;
-  align-items: stretch;
   width: 90%;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__column_content_copyright{
-  flex-basis: 711px; /* Задаем начальный размер элемента в контейнере */
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright{
+  flex-basis: 711px; /* Задаем начальный размер элемента в контейнере */
   justify-content: space-between;
   color: white;
 }
@@ -332,7 +335,7 @@
   color: white;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
 }
 
