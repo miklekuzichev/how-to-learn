@@ -268,18 +268,18 @@
   z-index: 1;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: white;
   z-index: 2;
   margin-top: 90px;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   z-index: 2;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   color: white;
   z-index: 2;
   margin-bottom: 90px;
