@@ -1,0 +1,10 @@
+/* CSS стили для секции cards__title */
+
+.cards__title {
+  margin: 0;
+  margin-bottom: 16px;
+  text-align: center; /* выравниваем текст по горизонтали внутри блока */
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+}

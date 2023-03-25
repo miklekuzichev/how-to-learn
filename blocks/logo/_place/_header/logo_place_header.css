@@ -1,7 +1,7 @@
 /* CSS стили для logo_place_header */
 
 .logo_place_header {
-  background-image: url(../../../../../images/logo_place_header.svg); /* задаем фоновое изображение для элемента */
+  background-image: url(../../../../images/logo_place_header.svg); /* задаем фоновое изображение для элемента */
   position: absolute; /* включаем абсолютное позиционирование элемента */
   top: 30px; /* задаем вертикальную позицию позиционируемого элемента */
   left: 64px; /* задаем горизонтальную позицию позиционируемого элемента */

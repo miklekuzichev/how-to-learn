@@ -4,7 +4,17 @@
   margin: 0 auto;
   text-align: center;
   display: flex;
+  position: relative;
   flex-direction: column; /* задаем направление, в соответствии с которым располагаются флекс элементы внутри контейнера */
   align-items: center; /* задаем выравнивание элементов вдоль поперечной оси */
-  transform: translateY(50px);
+}
+
+.video::after {
+  position: absolute;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  content: '';
+  z-index: -1;
 }

@@ -3,7 +3,7 @@
 .oakley {
   background-color: #f2f2f2;
   margin: 0 auto;
-  padding-top: 160px;
+  padding-top: 110px;
   padding-bottom: 0;
   display: flex;
   justify-content: center; /* задаем способ распределения пространства вокруг флекс-элементов вдоль главной оси контейнера */

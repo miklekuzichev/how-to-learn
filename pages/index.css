@@ -6,6 +6,31 @@
 
 @import url(../blocks/page/page.css);
 
+/*logo*/
+
+@import url(../blocks/logo/logo.css);
+
+/*two-columns*/
+
+@import url(../blocks/two-columns/two-columns.css);
+
+/*table*/
+
+@import url(../blocks/table/table.css);
+
+/*cards*/
+
+@import url(../blocks/cards/cards.css);
+
+/*section-title*/
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+
+/*section-subtitle*/
+
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 /*header*/
 
@@ -15,30 +40,23 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/logo/_place/_header/logo_place_header.css);
-@import url(../blocks/header/logo/logo.css);
+@import url(../blocks/logo/_place/_header/logo_place_header.css);
 
 /*description*/
 
 @import url(../blocks/description/description.css);
-@import url(../blocks/description/two-columns/two-columns.css);
-@import url(../blocks/description/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/description/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/description/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /*techniques*/
 
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/cards/cards.css);
-@import url(../blocks/techniques/cards/__description/cards__description.css);
-@import url(../blocks/techniques/cards/__image/cards__image.css);
-@import url(../blocks/techniques/cards/__item/cards__item.css);
-@import url(../blocks/techniques/cards/__title/cards__title.css);
-@import url(../blocks/techniques/section-subtitle/section-subtitle.css);
-@import url(../blocks/techniques/section-title/section-title.css);
-@import url(../blocks/techniques/section-subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../blocks/techniques/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
 
 /*video*/
 
@@ -60,14 +78,14 @@
 /*digits*/
 
 @import url(../blocks/digits/digits.css);
-@import url(../blocks/digits/table/table.css);
-@import url(../blocks/digits/table/__cell/table__cell.css);
-@import url(../blocks/digits/table/__heading/table__heading.css);
-@import url(../blocks/digits/table/__text/table__text.css);
-@import url(../blocks/digits/table/_theme/table_theme_dark.css);
-@import url(../blocks/digits/table/__cell/_theme/table__cell_theme_dark.css);
-@import url(../blocks/digits/table/__heading/_theme/table__heading_theme_dark.css);
-@import url(../blocks/digits/table/__text/_theme/table__text_theme_dark.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /*khan*/
 
@@ -104,10 +122,4 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/logo/_place/_footer/logo_place_footer.css);
-
-
-
-.border {
-  border: 1px solid rgb(255, 0, 0);
-}
+@import url(../blocks/logo/_place/_footer/logo_place_footer.css);

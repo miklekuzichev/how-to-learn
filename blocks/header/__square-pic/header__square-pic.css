@@ -7,10 +7,4 @@
   right: 0;
   top: 64px;
   background-color: #2f80ed; /* задаем цвет фона элемента */
-  animation: rotation linear 20s infinite;
 }
-
-.header__square-pic: .rotation {
-  animation: rotation linear 20s infinite;
-}
-
