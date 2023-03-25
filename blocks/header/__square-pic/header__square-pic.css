@@ -1,0 +1,16 @@
+/* CSS стили для header__square-pic */
+
+.header__square-pic{
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed; /* задаем цвет фона элемента */
+  animation: rotation linear 20s infinite;
+}
+
+.header__square-pic: .rotation {
+  animation: rotation linear 20s infinite;
+}
+

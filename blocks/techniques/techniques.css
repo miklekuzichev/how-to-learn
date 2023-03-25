@@ -1,0 +1,10 @@
+/* CSS стили для секции techniques */
+
+.techniques {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* задаем направление, в соответствии с которым располагаются флекс элементы внутри контейнера */
+  align-items: center; /* задаем выравнивание элементов вдоль поперечной оси */
+}

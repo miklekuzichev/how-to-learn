@@ -1,0 +1,6 @@
+/* CSS стили для секции footer__column */
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}

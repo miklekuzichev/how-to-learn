@@ -1,0 +1,10 @@
+/* CSS стили для video */
+
+.video {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* задаем направление, в соответствии с которым располагаются флекс элементы внутри контейнера */
+  align-items: center; /* задаем выравнивание элементов вдоль поперечной оси */
+  transform: translateY(50px);
+}

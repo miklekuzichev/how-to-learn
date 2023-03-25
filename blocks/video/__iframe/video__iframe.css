@@ -1,0 +1,11 @@
+/* CSS стили для video__iframe */
+
+.video__iframe {
+  margin: 0 20px 0 0;
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:nth-child(even) {
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+/* CSS стили для секции table_theme_dark */
+
+.table_theme_dark {
+  color: white;
+  z-index: 2;
+  margin-bottom: 90px;
+}
+

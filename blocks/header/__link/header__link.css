@@ -1,0 +1,11 @@
+/* CSS стили для header__link */
+
+.header__link{
+  text-decoration: none; /* задаем внешний вид декоративных линий в тексте (убираем подчеркивание) */
+  color: #2f80ed;
+}
+
+.header__link:hover {
+  opacity: 0.33;
+  transition: opacity 1s;
+}

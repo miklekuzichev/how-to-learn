@@ -1,0 +1,12 @@
+/* CSS стили для header__title */
+
+.header__title{
+  margin: 0;
+  margin-left: 64px;
+  width: 730px;
+  font-size: 108px; /* задаем размер шрифта элемента */
+  font-weight: 600; /* задаем начертание шрифта элемента */
+  line-height: 96px; /* задаем высоту строки текста элемента */
+  z-index: 2;
+}
+

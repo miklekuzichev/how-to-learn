@@ -1,0 +1,11 @@
+/* CSS стили для секции feynman__title */
+
+.feynman__title {
+  width: 648px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  text-align: center; /* выравниваем текст по горизонтали внутри блока */
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+}

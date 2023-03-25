@@ -1,0 +1,7 @@
+/* CSS стили для секции section-title_theme_dark */
+
+.section-title_theme_dark {
+  color: white;
+  z-index: 2;
+  margin-top: 90px;
+}

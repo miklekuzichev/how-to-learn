@@ -1,0 +1,15 @@
+/* CSS стили для секции footer__column-link */
+
+.footer__column-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: white;
+}
+
+.footer__column-link:hover {
+  opacity: 0.33;
+  transition: opacity 1s;
+}
+

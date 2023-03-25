@@ -1,0 +1,7 @@
+/* CSS стили для секции footer__column_content_copyright */
+
+.footer__column_content_copyright {
+  flex-basis: 711px; /* Задаем начальный размер элемента в контейнере */
+  justify-content: space-between;
+  color: white;
+}

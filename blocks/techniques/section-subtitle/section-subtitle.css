@@ -1,0 +1,11 @@
+/* CSS стили для секции section-subtitle */
+
+.section-subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}

@@ -1,0 +1,10 @@
+/* CSS стили для video__iframes */
+
+.video__iframes {
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-direction: row; /* задаем направление, в соответствии с которым располагаются флекс элементы внутри контейнера */
+  list-style: none; /* убираем оформление списка */
+  padding: 0;
+}
+

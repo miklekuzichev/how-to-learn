@@ -1,0 +1,10 @@
+/* CSS стили для resources__link */
+
+.resources__link {
+  margin: auto;
+}
+
+.resources__link:hover {
+  opacity: 0.33;
+  transition: opacity 1s;
+}

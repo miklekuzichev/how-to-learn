@@ -1,0 +1,7 @@
+/* CSS стили для секции description */
+
+.description {
+  margin: 100px auto 0 auto;
+  display: flex;
+  justify-content: center; /* задаем способ распределения пространства вокруг флекс-элементов вдоль главной оси контейнера */
+}

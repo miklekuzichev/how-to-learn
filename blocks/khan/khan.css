@@ -1,0 +1,12 @@
+/* CSS стили для секции khan */
+
+.khan {
+  margin: 0;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding-top: 105px;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center; /* задаем способ распределения пространства вокруг флекс-элементов вдоль главной оси контейнера */
+}
+

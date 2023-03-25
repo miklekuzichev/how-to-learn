@@ -1,0 +1,10 @@
+/* CSS стили для секции khan__book-pic */
+
+.khan__book-pic {
+  margin: 0;
+  margin-right: 48px;
+  width: 620px;
+  height: 608px;
+  object-fit:cover;
+  object-position: top;
+}

@@ -1,0 +1,12 @@
+/* CSS стили для секции two-columns__main-text */
+
+.two-columns__main-text {
+  min-width: 784px; /* задаем минимальную ширину элемента */
+  width: 80%;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

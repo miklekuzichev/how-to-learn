@@ -1,0 +1,14 @@
+/* CSS стили для footer */
+
+.footer {
+  margin: 0 auto;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+

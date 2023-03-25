@@ -1,0 +1,14 @@
+/* CSS стили для секции kaufman__triangle */
+
+.kaufman__triangle {
+  background-color: #1f1f1f;
+  background-image: url("../../../images/kaufman-triangle.svg");
+  background-repeat: no-repeat;
+  background-size: cover; /* масштабируем фоновое изображение */
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  z-index: 1;
+  animation: rotation linear 20s infinite;
+}

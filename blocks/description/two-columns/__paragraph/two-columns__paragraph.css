@@ -1,0 +1,12 @@
+/* CSS стили для секции two-columns__paragraph */
+
+.two-columns__paragraph {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-columns__paragraph:nth-child(even) {
+  margin: 30px 0;
+}
