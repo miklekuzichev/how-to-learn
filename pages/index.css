@@ -40,7 +40,7 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/logo/_place/_header/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 /*description*/
 
@@ -122,4 +122,4 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/logo/_place/_footer/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
