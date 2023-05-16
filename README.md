@@ -7,3 +7,5 @@
 **HTML**
 **CSS**
 **Markdown**
+
+Ссылка на проект: [gh-pages](https://miklekuzichev.github.io/how-to-learn/index.html).
